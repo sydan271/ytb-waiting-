@@ -1,0 +1,10 @@
+you wanna watch the video for K minutes   
+you preload cuz your internet is slow af and it loads at A video/minute
+but if you watch and load it will load at B video/minute 
+the question is ? how long would you wait for the video to preload to watch without bluffering
+-> that means you still watch over K minutes but combines the time you spent on preload and load while watching 
+-> the math: 
+A*t + B*K >= K is the minimum K minutes you'd need
+-> find t
+t >= K(1-B)/A
+
